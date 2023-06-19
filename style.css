@@ -1,0 +1,1686 @@
+* {
+  padding: 0%;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #FFE6A7;
+  font-family: 'Gloock', serif;
+  font-family: 'Mukta', sans-serif;
+}
+
+
+
+
+
+
+/*Mobile*/
+@media screen and (min-width:300px) and (max-width: 600px)  {
+  .menu-items {
+    position: fixed;
+    top: 0;
+    left: 100%;
+    width: 100%;
+    min-height: 100vh;
+    display: block;
+    padding-top: 120px;
+    background-color: black;
+    padding-top: 100px;
+    transition: 0.4s;
+    
+  }
+
+  .line-hover{
+  width: 7%;
+left: 0;
+margin-left: 4%;
+  border: 1px solid #FFE6A7;
+  
+  }
+
+  
+
+  .menu-items.is-active {
+    left: 0;
+
+  }
+
+  a {
+    display: block;
+    
+    margin-bottom: 16px;
+    padding: 12px 16px;
+    background-color: black;
+    text-decoration: none;
+    color: #FFE6A7;
+    margin-top: 5%;
+  }
+
+  .navbar {
+    z-index: 98;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    padding-top: 20px;
+
+  }
+ 
+
+/* Tyler The creator reveals 
+his favorite artists of 2022*/ 
+  .Tyler-pic-homepage{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+  
+    
+  .Video-Homepage-Tyler{
+  margin-top: 3%;
+  display: flex;
+width: 30%;
+  }
+   
+/* Homepage */
+
+.hamburger {
+  position: relative;
+  display: block;
+  width: 48px;
+  cursor: pointer;
+  appearance: none;
+  background: none;
+  outline: none;
+  border: none;
+
+}
+
+.hamburger .bar,
+.hamburger:after,
+.hamburger:before {
+  width: 50%;
+  height: 3.5px;
+  background-color: black;
+  margin: 6px 0px;
+  transition: 0.4s;
+  content: '';
+  display: block;
+  margin-left: 11px;
+}
+
+.hamburger.is-active:before {
+  transform: rotate(-45deg) translate(-8px, 6px);
+  background-color: #FFE6A7;
+}
+
+.hamburger.is-active:after {
+  transform: rotate(45deg) translate(-7px, -6px);
+  background-color: #FFE6A7;
+}
+
+.hamburger.is-active .bar {
+  opacity: 0;
+  background-color: #FFE6A7;
+}
+
+
+
+
+.Emit-Music.is-active {
+  position: relative;
+  z-index: 98;
+  background-color: black;
+  color: #FFE6A7;
+
+}
+
+
+
+
+.Emit-Music {
+  font-size: 25px;
+ margin-left: 13%;
+ background-color: #FFE6A7;
+ color: black;
+display: flex;
+width:40%
+
+}
+
+#News {
+  font-size: 22px;
+  letter-spacing: 1px;
+  font-weight: bold;
+  margin-left: 2%;
+
+
+}
+
+
+.The-Weeknd-News {
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+  margin-top: 65px;
+  font-size: 186x;
+  line-height: 46px;
+  gap: 10px;
+}
+
+
+.Tyler-News, .jamiroquai{
+  margin-top: 65px;
+  margin-left: 9px;
+ 
+  line-height: 41px;
+  gap: 10px;
+}
+
+
+.artist-tours{margin-top:8%
+
+}
+
+
+
+
+.Tyler-Headline {
+  font-size: 30px;
+  width: 95%;
+  background-color: none;
+  
+}
+
+#News {
+  font-size: 12px;
+  word-spacing: 2.3px;
+}
+
+
+.News-author {
+  display: flex;
+  font-size: 12px;
+  margin-right: 38%;
+  overflow-wrap: normal;
+}
+
+
+
+.line {
+  border-left: 2px solid black;
+  margin-top: 14px;
+  height: 14px;
+  position: absolute;
+  margin-left: 36px;
+}
+
+
+.Tyler, .Sade-News-Pic {
+
+  height:24em;
+  max-width:98%;
+  padding-top: 6px;
+  object-fit: cover;
+}
+
+
+
+.Tyler-text {
+  line-height: 27px;
+  font-size: 18px;
+  margin-top: 10px;
+  margin-left: 8px;
+}
+
+
+.The-Weeknd-News {
+  padding-top: 35px;
+
+}
+
+.Latest-Music-News {
+  
+  display: flex;
+  flex-direction: column;
+
+
+}
+
+.Music-Headline-News {
+  font-size: 25px;
+  margin-left: 17px;
+  text-align: center;
+}
+
+.The-Weeknd, .Skrillex-homepage, .Sade-homepage, .Frank-homepage {
+  width: 45%;
+  min-height: 18vh;
+  margin-left: 17px;
+  margin-top: 18px;
+  object-fit: cover;
+}
+
+
+
+
+.The-Weeknd-Block, .Skrillex-Block, .Sade-Block, .Frank-Block, .Saba-Block{
+  display: flex;
+  flex-direction: row;
+  margin-top: 15px;
+}
+
+
+
+.Weeknd-Text,.Skrillex-Text-homepage, .Sade-Text-homepage, .Frank-Text-homepage, .Saba-homepage{
+  font-size: 15px;
+ background-color: black;
+ color: #FFE6A7;
+ margin-top: 3%;
+ margin-left: 2%;
+}
+
+
+.text-box-weekend, .text-box-Skrillex, .text-box-sade, .text-box-frank{
+display: flex;
+flex-direction: column;
+height: 17.8vh;
+margin-top: 5%;
+width: 90%;
+background-color: black;
+}
+
+
+
+.line-text-box{
+  border: 0.2px solid #FFE6A7;
+}
+
+.line-genre{
+  border: 0.2px solid #FFE6A7;
+width: 90%;
+}
+
+.Genre-Homepage{
+font-size: 18px;
+background-color: black;
+color: #FFE6A7;
+margin-left: 2%;
+
+
+}
+
+.headline-tour{
+font-size: 15px;
+display: flex;
+justify-content: center;
+}
+
+.Genre-artist-tour{
+display: flex;
+justify-content: center;
+}
+
+#more{
+display:none;
+flex-direction: column-reverse;
+}
+
+#more-tours
+{
+display: none;
+flex-direction: column-reverse;
+}
+
+
+
+
+.Skrillex{
+margin-top: 20px;
+display: flex;
+flex-direction: row;
+}
+
+.Skrillex-Pic {
+width: 45%;
+margin-left: 17px;
+max-height: 13vh;
+
+}
+
+.Skrillex-Text {
+  font-size: 12px;
+  margin-top: 23px;
+  margin-left: 13px;
+}
+
+.Sade{
+display: flex;
+flex-direction: row;
+
+}
+
+.Sade-Pic{
+  width: 45%;
+  margin-left:17px;
+  margin-top: 20px;
+}
+
+.Sade-Text{
+  font-size: 12px;
+ display: flex;
+ margin-top: 50px;
+ margin-left: 13px;
+
+}
+
+
+
+#myBtn{
+ margin: auto;
+ width:35%;
+ margin-top: 45px;
+ border-radius: 9px;
+}
+
+#Btn-tours{
+ text-align: center;
+  bottom:20px;
+  width:35%;
+  border-radius: 9px;
+  position: absolute;
+
+}
+
+#myBtn:hover {
+  background-color: black;
+  color: #FFE6A7;
+}
+
+#Btn-tours:hover {
+  background-color:#FFE6A7;
+  color: black;
+}
+
+.Editors-Picks{
+ 
+  margin-top: 70px;
+
+}
+
+.line-2{
+  border: 0.01px solid black;
+width: 90%;
+margin-left: 20px;
+  
+  
+  
+}
+
+#Editors-Pick-Text{
+font-size: 33px;
+margin-left: 19px;
+font-weight: bold;
+
+
+}
+
+.Herbet{
+width:90%;
+min-height: 35vh;
+display: block;
+margin-left: auto;
+margin-right: auto;
+margin-top: 35px;
+}
+
+.Herbet-Paragraph{
+margin-left: 14px;
+margin-top: 5px;
+font-size: 16px;
+text-align: center;
+}
+.Editors-Genre{
+  margin-left: 16px;
+  margin-top: 20px;
+  font-size: 17px;
+  text-align: center;
+}
+
+.FG{
+ text-align: center;
+  font-size: 22px;
+}
+.FG-Name{
+text-align: center;
+font-size: 20px;
+}
+
+.Tours{
+margin-top: 65px;
+display: flex;
+flex-direction: column;
+position: relative;
+}
+
+.Tour-News{
+background-color: black;
+height:69em;
+width:100%;
+display: inline-block;
+display: flex;
+flex-direction: column;
+}
+
+
+#Tour-Text{
+
+color:black;
+font-size: 33px;
+margin-left: 19px;
+font-weight: bold;
+
+
+
+}
+
+.Jamiroquai-Pic{
+  width:100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+ 
+  
+
+}
+.European-Tours{
+background-color: black;
+color: #FFE6A7;
+font-size: 23px;
+margin-left: 14px;
+margin-top: 30px;
+}
+
+.Jamiroquai-text{
+font-size:32px;
+margin-left: 14px;
+margin-top: 70px;
+color:#FFE6A7;
+background-color: black;
+}
+
+.Arctic-Monkeys-Block{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 15px;
+  
+}
+
+.tour-details{
+display: flex;
+flex-direction: column;
+margin-top: 4%;
+
+}
+
+
+.Arctic-Monkeys {
+  width: 45%;
+  background-color: black;
+  margin-top: 18px;
+  object-fit: cover;
+  display: block;
+max-height: 20vh;
+}
+
+.Arctic-Text{
+color:#FFE6A7;
+background-color: black;
+font-size: 12px;
+margin-right: 40px;
+margin-top:60px ;
+}
+
+.Little-Simz-Tour, .Yves-Tumor-Tour, .Domi-JDBeck-Tour{
+background-color: black;
+display: flex;
+flex-direction: row;
+}
+
+.Little-Simz-Tour, .Yves-Tumor-tour{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+
+
+}
+
+.Little-Simz-Live-Pic, .Yves-Tumor-Live-Pic, .Domi-JDBeck-Live-Pic{
+  width: 45%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-left: 14px;
+  background-color: black;
+  margin-top: 40px;
+}
+
+.Little-Simz-Text, .Yves-Tumor-Text, .Domi-Jdbeck-Text{
+  color:#FFE6A7;
+  background-color: black;
+  font-size: 12px;
+  margin-left: 10px;
+  margin-top:55px ;
+  }
+
+
+.View-All-Tours{
+margin: auto;
+width:60%;
+margin-top: 30px;
+background-color: black;
+color: #FFE6A7;
+border-color: #FFE6A7;
+
+}
+
+.Latest-Album{margin-top: 10px;
+  padding: 3%;
+  
+
+}
+
+#Latest-Album-Heading{
+margin-top: 10px;
+text-align: center;
+font-size:30px;
+
+}
+
+
+
+.line-1{
+  border: 1px solid black;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  
+  
+ 
+
+}
+
+.Mac-DeMarco, .Kali-Uchis, .T-S-P{
+display: flex;
+flex-direction: column;
+gap: 4px;
+margin-top: 20px;
+margin-left: 6%;
+}
+
+.Genre{
+  font-size: 16px;
+
+}
+.Album-Name{
+  font-size: 20px;
+  font-weight: bolder;
+  
+  }
+
+
+  .Artist-Name{
+  font-size:18px;
+  
+  }
+
+
+.Atum-Pic, .Kali-Uchis-Pic, .Mac-DeMarco-Pic, .Atum-Pic{
+
+  width: 30%;
+  height: 16vh;
+  object-fit: cover;
+
+}
+
+
+.Album-review{
+font-size: 13px;
+text-align: justify;
+
+
+}
+
+.Kali-Uchis, .T-S-P{
+margin-top: 20px;
+}
+
+
+
+
+.View-More-Albums{
+
+margin: 0 auto;
+width:35%;
+border-radius: 9px;
+display: block;
+margin-top: 50px;
+ 
+ }
+
+
+
+ .View-More-Albums:hover {
+   background-color: black;
+   color: #FFE6A7;
+ }
+
+.Footer{
+margin-top: 400px;
+background-color: black;
+height:500px;
+text-align: center;
+
+}
+
+.Footer-Name{
+ background-color: black;
+ color: #FFE6A7;
+ text-align: center; 
+ padding-top: 70px;
+}
+
+.Footer-Name{
+  font-size: 22px;
+  background-color: black;
+}
+
+.social-media-icons{
+background-color: black;
+margin-top: 40px;
+font-size: 26px;
+
+
+}
+
+
+.categories, li{
+background-color: black;
+color: #FFE6A7;
+margin-top: 25px;
+}
+
+.categories{
+  margin-top: 80px;
+}
+
+
+/*Tyler The creator reveals 
+his favorite artists of 2022 */
+
+.Line-Tyler{
+  border: 1px solid black;
+  width: 20%;
+  margin-top: 5px;
+}
+
+
+.Tyler-Below-Title{
+margin-top: 15px;
+width: 98%;
+}
+
+.Tyler-Tweet{
+width:300px; 
+height:70%;
+margin:0 auto;
+padding-top: 300px;
+display: flex;
+align-items: center;
+justify-content: center;
+
+
+}
+
+.Skrillex-Spotify{
+justify-content: center;
+margin: auto;
+display: flex;
+width:370px; 
+height:315px;
+
+}
+
+.Frank-Spotify{justify-content: center;
+  margin: auto;
+  margin-top: 3%;
+  display: flex;
+  width:390px; 
+  height:400px;
+
+}
+
+.Frank-News-Picture, .Sade-Article-Pic{
+  object-fit: cover;
+  justify-content: center;
+  margin: auto;
+  display: flex;
+  width:100%;
+  height:315px;
+  
+  }
+
+.Tyler-Paragraph,  .Sade-Article-Text{
+font-size: 18px;
+margin: 0 auto;
+display: block;
+max-width: 90%;
+height:315px;
+}
+
+.Tyler-Paragraph-2{
+max-width: 90%;
+margin: 0 auto;
+height: 315px;
+font-size: 18px;
+}
+
+.Frank-Paragraph-2{
+  font-size: 14px;
+  margin: 0 auto;
+  margin-top: 5%;
+  display: block;
+  width:370px; 
+  height:315px;
+  }
+
+.Skrillex-Paragraph-2{
+position: relative;
+bottom:63px;
+font-size: 14px;
+margin: 0 auto;
+display: block;
+width:370px; 
+height:90px;
+}
+
+
+.Video-Tyler{
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-top: 10%;
+}
+
+
+
+.More-latest{
+position: relative;
+font-size: 21px;
+
+text-align: center;
+}
+
+
+
+
+.Weeknd-Slide-Text, .Sade-Slide-Text, .Skrillex-Slide-Text{
+position: absolute;
+bottom:25%;
+text-align: center;
+background: none;
+color:white;
+font-size: 24px;
+
+}
+
+
+.Editors-Pick-Text-box{
+display: flex;
+flex-direction: column;
+text-align: center;
+margin-top:15%;
+}
+
+
+.Album-cover-rating{
+display: flex;
+flex-direction: row;
+justify-content: center;
+gap: 20px;
+
+
+}
+.Freddie-Cover{
+  height: 13rem;
+  object-fit: cover;
+}
+
+.Circle{
+  height: 140px;
+  width: 140px;
+  background-color:none;
+  border:6px solid black;
+  display: inline-block;
+  border-radius: 60%;
+  margin-top: 6%;
+  
+}
+
+.Album-rating{
+  font-size: 50px;
+  margin: 15%;
+  text-align: center;
+  
+}
+.Editor-Genre-details{
+display: flex;
+flex-direction: column;
+text-align: center;
+margin-top: 6%;
+}
+
+.Written-by{
+padding: 3%;
+}
+
+.Freddie-Genre,.Label,.Date-reviewed{
+margin-bottom:2%;
+}
+.Freddie-Headline{
+  font-family:sans-serif;
+  font-weight: lighter;
+  font-size: 20px;
+text-align: center;
+display: block;
+width:370px; 
+margin: 20px auto;
+line-height: 30px;
+
+}
+
+.Freddie-Article{
+  
+  font-size: 20px;
+  display: block;
+  width:370px; 
+  margin:auto;
+
+}
+
+
+.Listen-Freddie{
+margin-top: 50px;
+text-align: center;
+}
+
+.jamiroquai{
+margin-top: 20%;
+}
+
+.Jamiroquai-Tour{
+object-fit: fill;
+width:100%;
+margin-top: 10%;
+
+
+}
+.Jamiroquai-tour-text{
+margin-left: 3%;
+}
+
+.Line-Jamiroquai{
+  border: 1px solid black;
+  width: 20%;
+  
+  
+}
+
+.jamiroquai-paragraph-1 {
+  font-size: 14px;
+  margin: 0 auto;
+  display: block;
+  width:370px; 
+  height:245px;
+  }
+
+  .jamiroquai-paragraph-2{
+    font-size: 14px;
+    margin: 10px auto;
+    display: block;
+    width:370px; 
+    height:245px;
+   text-align: center;
+  }
+
+  
+
+.Listen-Spotify{
+  font-size: 20px;
+}
+
+.Video{
+margin-top: 20px;
+}
+
+.Video-Of-Week{
+font-size: 20px;
+text-align: center;
+
+}
+
+.Video-Homepage{
+margin-top:50%;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+
+.more-tour-news{
+text-align: center;
+}
+
+}
+
+
+
+/*Desktop */
+@media only screen and (min-width: 700px) and (max-width:2560px) {
+
+
+
+/* Homepage */
+
+.hamburger {
+  position: relative;
+  display: none;
+  width: 48px;
+  cursor: pointer;
+  appearance: none;
+  background: none;
+  outline: none;
+  border: none;
+
+}
+
+.menu-items,a {
+    background-color: none;
+    color: black;
+   list-style-type: none;
+   text-decoration: none;
+
+  
+   
+
+  }
+
+  .menu-items{
+  font-size: 16px;
+  padding:0.7%;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  
+  }
+
+.line-navbar-home{
+  
+    border-left: 1px solid #FFE6A7;
+
+    height: 1px;
+   
+   
+}
+  
+
+  .Emit-Music{
+    font-size: 53px;
+  background-color: black;
+  color: #FFE6A7;
+   }
+
+  .nav-title{
+  display: flex;
+  flex-direction:column-reverse;
+  background-color: black;
+  text-align: center;
+  min-width:100%
+  
+  }
+
+/* Music News */
+
+.music-news{
+display: flex;
+max-width: 1700px;
+margin: 0 auto;
+}
+
+.flex-grow{
+flex-grow: 1;
+
+}
+
+.news-1, .news-2, .news-3{
+padding: .5em;
+
+border-left: 1px solid #333;
+}
+
+.news-1{
+  display: flex;
+  flex-direction: column;
+  
+}
+
+
+
+.news-2{
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+order: -1;
+
+
+
+
+}
+
+.news-3{
+display: flex;
+flex-direction: column;
+width: 40%;
+
+
+
+}
+
+
+
+.news-1:before{
+content: "";
+border: 1px solid black;
+
+}
+
+
+
+
+.line-side-articles{
+  border: 0.7px solid black;
+  
+}
+
+
+.line-2{
+  border: 0.1px solid black;
+  width:70%;
+  margin: 0 auto;
+}
+
+.Tyler-News, .The-Weeknd-Block--start{
+order: -1;
+}
+
+.Tyler-Headline {
+  font-size: 33px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: none;
+  
+  
+}
+
+.Tyler-pic-homepage{
+  width: 100%;
+  margin: 0 auto;
+  object-fit: cover;
+
+
+}
+
+.The-Weeknd-Block{
+  margin-top: 2%;
+display: flex;
+gap: 10px;}
+
+
+
+.Weeknd-Text{
+font-size: 23px;
+}
+
+.Skrillex-Text-homepage,.Sade-Text-homepage, .Frank-Text-homepage{
+font-size: 24px;
+}
+
+.Tours{
+margin-top: 10%;
+
+
+
+}
+
+#Tour-Text{
+font-size: 47px;
+text-align: center;
+}
+
+.headline-tour{
+
+font-size: 25px;
+}
+
+.Tour-News{
+display: grid;
+
+
+}
+
+
+
+
+/* Article divisions */
+
+.Freddie-section{
+display: flex;
+flex-direction:row;
+justify-content: center;
+gap: 50px;
+margin-top: 3%;
+
+}
+
+.freddie-textbox{
+  margin-top: 3%;
+
+}
+
+.Editors-Picks{
+text-align: center;
+font-size: 37px;
+margin-top:10%;
+}
+
+.Saba-Block{
+  margin-top: 2%;
+}
+
+
+.artist-tours{
+display: grid;
+grid-template-columns: 1fr 1fr;
+margin-top: 3%;
+gap: 40px;
+
+}
+
+.Arctic-Monkeys-Block, .jamiroquai-news{
+ 
+  display: grid;
+  justify-items: center;
+}
+
+
+
+.Latest-Album{
+margin: 10% auto;
+font-size: 37px;
+
+
+}
+
+#Latest-Album-Heading{
+text-align: center;
+}
+
+.albums{
+margin: 5%;
+display: grid;
+grid-auto-flow: column;
+grid-auto-columns: 15%;
+
+
+}
+
+
+
+.Genre{
+font-size: 30px;
+}
+
+.Album-Name{
+  font-size:28px ;
+  }
+
+  .Artist-Name{
+  font-size:22px;
+  }
+
+.Album-review{
+  font-size: 20px;
+  justify-content:end;
+  
+  }
+
+  .Mac-DeMarco, .Kali-Uchis, .T-S-P{
+ 
+  align-items: center;
+  justify-content: center;
+  
+  }
+
+  .Video{
+    margin-top: 5%;
+  
+  }
+
+
+  .Video-Of-Week{
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 37px;
+  }
+
+  .Video-Homepage{
+  
+  display: flex;
+  margin: 5% auto;
+  width: 60%;
+  height: 490px;
+  }
+
+/* Pictures */
+
+.The-Weeknd, .Saba-homepage{
+width:23%;
+height:15vh;
+object-fit: cover;
+}
+
+.Herbet{
+width: 25%;
+height: min-content;
+object-fit: cover;
+}
+
+.Skrillex-homepage, .Sade-homepage, .Frank-homepage, .Saba-homepage{
+width:100%;
+max-height: 20vh;
+object-fit: cover;
+}
+
+.Sade-homepage, .Saba-homepage{
+margin-top: 2%;
+}
+
+  #News{
+  font-size: 17px;
+  }
+
+  .News-author, .Author{
+
+  font-size: 14px;
+  }
+
+  
+.Jamiroquai-Pic, .Arctic-Monkeys{
+width: 60%;
+}
+
+
+.Kali-Uchis-Pic, .Atum-Pic, .Mac-DeMarco-Pic{
+width: 100%;
+object-fit: cover;
+}
+
+
+.Footer{
+margin-top: 10%;
+background-color: black;
+}
+
+
+.footer-content{
+background-color: black;
+margin-left:4%;
+}
+
+.social-media-icons, li, .Footer-Name{
+background-color: black;
+}
+
+.social-media-icons{
+font-size: 35px;
+display: flex;
+gap:4%;
+}
+li{
+color: #FFE6A7;
+}
+
+.Footer-Name{
+color: #FFE6A7;
+height: 12vh;
+background-color: black;
+}
+
+.categories{
+list-style: none;
+margin-top: 2%;
+}
+
+.line-3{
+  border: 0.1px solid #FFE6A7;
+  width:90%;
+  margin:  40px 0;
+  
+}
+
+
+
+/* Tyler the Creator article */
+
+.Emit-Music{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+
+.Tyler-News{
+
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+
+}
+
+.Tyler-Headline{
+font-size: 50px;
+background-color: none;
+}
+
+.Line-Tyler{
+  border: 1px solid black;
+  width: 10%;
+
+}
+.News-author{
+display: flex;
+margin-top: 1%;
+
+}
+
+.Tyler-Below-Title{
+display: flex;
+margin-top: 1%;
+font-size: 19px;
+}
+
+.Tyler{
+width:50%;
+margin-top: 2%;
+}
+.Tyler-Paragraph, .Tyler-Paragraph-2{
+font-size: 31px;
+width: 50%;
+
+}
+
+.Tyler-Tweet{
+height: 90%;
+max-width: 90%;
+
+}
+
+.Video-Tyler{
+margin-top: 7%;
+}
+
+.Video-Homepage-Tyler, .Skrillex-Spotify{
+
+display: flex;
+margin: 6% auto;
+width: 900px;
+height: 490px;
+}
+
+.Editors-Pick-Text-box{
+margin-top: 5%;
+display: flex;
+flex-direction: row;
+gap:10%;
+justify-content: center;
+
+}
+
+.editor-details{
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-top: 3%;
+margin-left: 10%;
+}
+
+.Album-cover-rating{
+display: flex;
+flex-direction: row-reverse;
+gap:50px;
+
+}
+
+.album-title{
+font-size: 60px;
+
+}
+
+.TSP{
+width: 50%;
+height: 28vh;
+}
+
+.Circle{
+  height: 145px;
+  width: 145px;
+  background-color:none;
+  border:6px solid black;
+  display: inline-block;
+  border-radius: 70%;
+  margin-top: 13%;
+  padding: 10px;
+  
+}
+
+.Album-rating{
+text-align: center;
+margin-top: 30%;
+font-size: 20px;
+}
+
+.album{
+font-size: 20px;
+}
+
+
+.artist-name{
+font-size: 25px;
+}
+
+.line-editor{
+  border: 0.001px solid black;
+width: 100%;
+margin-top: 2%;
+
+
+  
+}
+.Editor-Genre-details{
+display: flex;
+flex-direction: column;
+text-align: center;
+margin-top: 1%;
+}
+
+.Freddie-Headline{
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 10px auto;
+font-size: 19px;
+width: 45%;
+
+}
+
+.Freddie-Article{
+display: flex;
+text-align: center;
+width: 50%;
+margin: 50px auto;
+}
+
+.Listen-Spotify{
+font-size: 20px;
+}
+.Listen-Freddie{
+display: flex;
+flex-direction: column;
+text-align: center;
+align-items: center;
+margin: 0 auto;
+}
+
+.Jamiroquai-Tour{
+margin-top: 2%;
+}
+
+.jamiroquai-paragraph-1{
+display: flex;
+align-items: center;
+justify-content: center;
+  width: 45%;
+  font-size: 20px;
+  margin-top: 1%;
+}
+
+.tour-dates{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+font-size: 20px;
+width: 40%;
+border-radius:2%;
+border: 2px solid black;
+gap: 15px;
+}
+
+.line-tour{
+  border: 1px solid black;
+  width: 90%;
+  height: 60%;
+  gap: 90px;
+  display: flex;
+}
+
+.tour-title{
+font-size: 19px;
+display: flex;
+
+}
+
+
+
+.Little-Simz-Tour{
+width:100%;
+object-fit: cover;
+}
+
+.Yves-Tumor-tour{
+width: 100%;
+}
+.Jamiroquai-Tour{
+width: 100%;
+}
+}
+
+@media only screen and (max-width : 768px) {
+  .The-Weeknd {height: 100%;
+    
+  }
+
+  .Herbet{
+ margin-left: 3%;
+ 
+ 
+  
+}
+
+
+
+
+.Editors-Genre{
+font-size: 30px;
+}
+
+.FG{
+font-size: 36px;
+}
+
+.Herbet-Paragraph{
+font-size: 20px;
+width: 70%;
+justify-content: center;
+align-items: center;
+margin: 0 auto;
+}
+
+.Herbet{
+margin-top: 5%;
+margin-left: 5%;
+}
+
+.headline-tour{
+font-size: 16px;
+width: 60%;
+}
+
+.Latest-Album{
+display: flex;
+flex-direction: column;
+
+}
+.Genre{
+font-size: 19px;
+
+
+
+}
+.Album-Name{
+font-size: 23px;
+}
+
+.Album-review{
+font-size: 13px;
+}
+
+.Video-Homepage-Tyler{
+width: 100%;
+}
+
+.Tyler-text{
+width: 90%;
+}
+
+.Frank-News-Picture{
+width: 100%;
+height: 90%;
+}
+
+.Frank-News-Picture-2{
+width: 50%;
+}
+}
